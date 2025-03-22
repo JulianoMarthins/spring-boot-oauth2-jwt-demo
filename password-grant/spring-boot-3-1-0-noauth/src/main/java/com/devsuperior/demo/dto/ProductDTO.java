@@ -4,9 +4,12 @@ import com.devsuperior.demo.entities.Product;
 
 public class ProductDTO {
 
+	// Atributos de Classe
 	private Long id;
 	private String name;
-	
+
+
+	// Construtores
 	public ProductDTO() {
 	}
 
@@ -20,6 +23,8 @@ public class ProductDTO {
 		name = entity.getName();
 	}
 
+
+	// Getters
 	public Long getId() {
 		return id;
 	}
