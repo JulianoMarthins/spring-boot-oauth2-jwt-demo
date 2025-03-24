@@ -3,10 +3,19 @@ package com.devsuperior.demo.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class SecurityConfig {
+
+    // Criação da função para criptografar dados
+    @Bean
+    public PasswordEncoder getPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -37,7 +46,6 @@ public class SecurityConfig {
             nesta estou permitindo que todas as requisições tenham acesso permitido, somente na classe dos controladores
             que haverá as configurações diretas em cada rota, limitando acesso às rotas específicas.
      */
-
 
 
 }

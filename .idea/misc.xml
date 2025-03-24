@@ -18,6 +18,17 @@
         <option value="$PROJECT_DIR$/password-grant/authorization-server-3-0-4/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/password-grant/authorization-server-2-7-3/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/authorization-server-3-0-4/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/resource-server-2-7-3/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/resource-server-3-0-4/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/spring-boot-2-7-9/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/spring-boot-3-1-0/pom.xml" />
+        <option value="$PROJECT_DIR$/password-grant/spring-boot-3-4-3/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

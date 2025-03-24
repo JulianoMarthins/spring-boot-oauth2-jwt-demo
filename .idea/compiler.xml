@@ -7,16 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo (2)" />
-        <module name="demo (1)" />
         <module name="demo (3)" />
-        <module name="rsdemo" />
-        <module name="dscatalog" />
-        <module name="rsdemo (1)" />
-        <module name="asdemo" />
-        <module name="demo" />
-        <module name="asdemo (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asdemo" target="17" />
+      <module name="asdemo (1)" target="17" />
+      <module name="demo" target="17" />
+      <module name="demo (1)" target="21" />
+      <module name="dscatalog" target="17" />
+      <module name="rsdemo" target="17" />
+      <module name="rsdemo (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
